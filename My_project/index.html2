@@ -1,0 +1,165 @@
+section class="hero">
+  <div class="overlay">
+    <h2>مرحباً بكم</h2>
+    <h1>Welc<ome</h1>
+    <p>TO THE CRADLE OF CIVILIZATION</p>
+    <button>Discover</button>
+  </div>
+</section>
+
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url('pyramid.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  letter-spacing: 3px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+}
+<section class="about">
+  <div class="about-text">
+    <h2>The Eternal Majesty of the Nile</h2>
+    <p>
+      For five millennia, the sands of Egypt have whispered tales of pharaohs, gods, and architectural marvels that defy the passage of time. From the chiseled precision of the Great Library to the celestial alignment of the Giza Plateau, every stone holds a legacy of unmatched ingenuity.
+
+Our mission is to bridge the chasm between the ancient past and the digital present. As curators of this digital sanctuary, we invite you to walk the desert path and uncover the artifacts that shaped the course of human history.
+    </p>
+  </div>
+
+  <div class="about-img">
+    <img src="nefertiti.jpg" alt="Nefertiti">
+  </div>
+</section>
+.about {
+  display: flex;
+  padding: 80px;
+  background: #0a0a0a;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.about-img img {
+  width: 300px;
+  border: 2px solid gold;
+}
+<section class="features">
+  <h2>Featured Treasures</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="pharaoh.jpg">
+      <h3>Pharaonic Era</h3>
+      <p>Discover ancient kings and pyramids.</p>
+    </div>
+
+    <div class="card">
+      <img src="islamic.jpg">
+      <h3>Islamic Era</h3>
+      <p>Explore mosques and culture.</p>
+    </div>
+
+    <div class="card">
+      <img src="coptic.jpg">
+      <h3>Coptic Era</h3>
+      <p>Learn about early Christianity in Egypt.</p>
+    </div>
+
+    <div class="card">
+      <img src="medieval.jpg">
+      <h3>Middle Ages</h3>
+      <p>See Egypt through medieval times.</p>
+    </div>
+
+  </div>
+</section>
+.features {
+  padding: 80px;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  width: 22%;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border: 1px solid gold;
+}
+<footer>
+  <p>© 2025 - Egypt History Project</p>
+</footer>
+footer {
+  background: #000;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
